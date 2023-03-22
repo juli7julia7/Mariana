@@ -1,0 +1,158 @@
+/* @import url("https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,900&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400,600,500,700&display=swap');
+
+
+body {
+   background: #292F36;
+   color: #fff;
+   /* font-family: "Darker Grotesque"; */
+   font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.container {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+/* ==================  HEADER  ======================== */
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 0 70px;
+}
+
+.logo img {
+
+   width: 120px;
+   height: 50px;
+}
+
+.nav__list {
+   display: flex;
+   gap: 34px;
+}
+
+.nav__link {
+   transition: 0.7s;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 42px;
+   letter-spacing: 0.05em;
+
+}
+
+.nav__link:hover {
+   color: #4F8C6D;
+}
+
+
+/* ============================ HERO  ======================================= */
+.hero {
+   display: flex;
+   justify-content: space-between;
+   background: #fff;
+   margin-bottom: 100px;
+   /* border-radius: 20%; */
+}
+
+.hero__title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 73px;
+   max-width: 505px;
+   color: #000;
+   text-align: center;
+   margin: 0 auto;
+   letter-spacing: 0.03em;
+}
+
+.hero__img img {
+   width: 750px;
+   height: 650px;
+   /* border-radius: 10%; */
+   /* border-top-right-radius: 10%;
+   border-bottom-right-radius: 10%; */
+}
+
+.hero__block-title {
+   padding: 90px 30px;
+}
+
+
+/* =================================  DESCRIPTION ================================== */
+.description {
+   background: #fff;
+   padding: 50px 0 100px;
+   margin-bottom: 100px;
+}
+
+.description__title {
+   font-weight: 700;
+      font-size: 55px;
+      line-height: 81px;
+      color: #486958;
+      text-align: center;
+      margin-bottom: 32px;
+}
+
+.description__list {
+   display: flex;
+   justify-content: center;
+   gap: 18px;
+}
+
+
+.description-item {
+   /* background: url(../img/description/bg.png) 0 0 no-repeat; */
+      max-width: 464px;
+      padding: 15px 20px 44px;
+      border-radius: 30px;
+      background: #292F36;
+}
+
+.description-item__title {
+   font-weight: 600;
+      font-size: 32px;
+      /* line-height: 35px; */
+      color: #4F8C6D;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+      /* max-width: 263px; */
+}
+
+.description-item__text {
+   font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 333px;
+}
+
+.img-desc{
+  
+   margin: 0 auto;
+   text-align: center;
+   position: relative;
+   
+}
+
+.img-desc__item2{
+   position: relative;
+   left: 0;
+   top: 0;
+   margin-bottom: 12px;
+   
+}
+
+.img-desc__item1{
+   position: absolute;
+   width: 35px;
+   z-index: 5;
+}
+
