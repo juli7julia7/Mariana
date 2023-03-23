@@ -91,11 +91,11 @@ body {
 
 .description__title {
    font-weight: 700;
-      font-size: 55px;
-      line-height: 81px;
-      color: #486958;
-      text-align: center;
-      margin-bottom: 32px;
+   font-size: 55px;
+   line-height: 81px;
+   color: #486958;
+   text-align: center;
+   margin-bottom: 32px;
 }
 
 .description__list {
@@ -107,52 +107,192 @@ body {
 
 .description-item {
    /* background: url(../img/description/bg.png) 0 0 no-repeat; */
-      max-width: 464px;
-      padding: 15px 20px 44px;
-      border-radius: 30px;
-      background: #292F36;
+   max-width: 464px;
+   padding: 15px 20px 44px;
+   border-radius: 30px;
+   background: #292F36;
 }
 
 .description-item__title {
    font-weight: 600;
-      font-size: 32px;
-      /* line-height: 35px; */
-      color: #4F8C6D;
-      text-align: center;
-      margin: 0 auto;
-      margin-bottom: 16px;
-      letter-spacing: -0.02em;
-      /* max-width: 263px; */
+   font-size: 32px;
+   /* line-height: 35px; */
+   color: #4F8C6D;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 16px;
+   letter-spacing: -0.02em;
+   /* max-width: 263px; */
 }
 
 .description-item__text {
    font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
-      text-align: center;
-      margin: 0 auto;
-      max-width: 333px;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   margin: 0 auto;
+   max-width: 333px;
 }
 
-.img-desc{
-  
+.img-desc {
+
    margin: 0 auto;
    text-align: center;
    position: relative;
-   
+
 }
 
-.img-desc__item2{
+.img-desc__item2 {
    position: relative;
    left: 0;
    top: 0;
    margin-bottom: 12px;
-   
+
 }
 
-.img-desc__item1{
+.img-desc__item1 {
    position: absolute;
    width: 35px;
    z-index: 5;
 }
 
+/* =================== INSPIRATION ============================== */
+.inspiration {
+   margin-bottom: 101px;
+}
+
+.container {}
+
+.inspiration__title {
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 81px;
+   color: #4F8C6D;
+   text-align: center;
+   margin-bottom: 41px;
+}
+
+.inspiration__block {
+   background: url(../img/inspiration/main.jpg) 0 0 no-repeat;
+   padding: 50px 0 30px;
+   display: flex;
+   justify-content: center;
+   gap: 179px;
+}
+
+.inspiration__left {}
+
+.inspiration__img-left {
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+
+.inspiration__text {
+   font-weight: 500;
+   font-size: 25px;
+   line-height: 30px;
+   text-align: left;
+   max-width: 400px;
+}
+
+.inspiration__right {}
+
+.inspiration__img-right {
+   height: 600px;
+   width: 500px;
+   border-radius: 10px;
+}
+
+/* =========================  GIRAFFE ========================== */
+.giraffe {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 100px;
+}
+
+.giraffe__title {
+   display: none;
+}
+
+.giraffe__img {
+   width: 900px;
+   height: 900px;
+   border-radius: 10px;
+}
+
+/* ========================== PROJECTS  =============================== */
+.projects {
+   margin-bottom: 100px;
+}
+
+.projects__title {
+   display: none;
+}
+
+.projects__block {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.projects__img-left,
+.projects__img-right {
+   width: 500px;
+   height: 600px;
+}
+
+/* ============================= ORDER ============================== */
+.order {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-bottom: 100px;
+}
+
+.container {}
+
+.order__title {
+   display: none;
+}
+
+.order__img {
+   width: 700px;
+   height: 700px;
+   border-radius: 10px;
+   margin: 0 auto;
+   margin-bottom: 34px;
+}
+
+.order__sub-block {
+   display: flex;
+   justify-content: center;
+   gap: 130px;
+   align-items: center;
+   margin-bottom: 60px;
+}
+
+.sub {}
+
+.sub__text {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 41px;
+   max-width: 500px;
+}
+
+.sub__link {}
+
+.order__button {
+   background: #486958;
+   border-radius: 50px;
+   max-width: 273px;
+   font-weight: 600;
+   font-size: 23px;
+   padding: 20px 40px;
+   margin: 0 auto;
+}
+
+.order__arrow {
+   width: 70px;
+   height: 30px;
+}
