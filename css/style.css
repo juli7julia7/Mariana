@@ -104,7 +104,6 @@ body {
    gap: 18px;
 }
 
-
 .description-item {
    /* background: url(../img/description/bg.png) 0 0 no-repeat; */
    max-width: 464px;
@@ -161,8 +160,6 @@ body {
    margin-bottom: 101px;
 }
 
-.container {}
-
 .inspiration__title {
    font-weight: 700;
    font-size: 50px;
@@ -180,8 +177,6 @@ body {
    gap: 179px;
 }
 
-.inspiration__left {}
-
 .inspiration__img-left {
    margin-bottom: 20px;
    border-radius: 10px;
@@ -194,8 +189,6 @@ body {
    text-align: left;
    max-width: 400px;
 }
-
-.inspiration__right {}
 
 .inspiration__img-right {
    height: 600px;
@@ -249,8 +242,6 @@ body {
    margin-bottom: 100px;
 }
 
-.container {}
-
 .order__title {
    display: none;
 }
@@ -271,8 +262,6 @@ body {
    margin-bottom: 60px;
 }
 
-.sub {}
-
 .sub__text {
    font-weight: 500;
    font-size: 30px;
@@ -280,7 +269,6 @@ body {
    max-width: 500px;
 }
 
-.sub__link {}
 
 .order__button {
    background: #486958;
@@ -290,9 +278,82 @@ body {
    font-size: 23px;
    padding: 20px 40px;
    margin: 0 auto;
+   transition: opacity 0.5s;
+}
+.order__button:hover{
+   opacity: 0.7;
 }
 
 .order__arrow {
    width: 70px;
    height: 30px;
 }
+
+
+/* ================================  FOOTER =================================== */
+.footer {
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   background: url(../img/footer/footer.png);
+   padding: 61px 15px 55px;
+   color: #000;
+   margin-bottom: 34px;
+}
+
+.footer__img img {
+   width: 400px;
+   height: 300px;
+   border-radius: 10px;
+}
+
+.socials__title, .footer__title{
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 45px;
+   max-width: 350px;
+   margin-bottom: 30px;
+}
+
+.socials__list{
+   display: flex;
+   gap: 30px;
+}
+
+.socials__link {
+   line-height: 50px;
+}
+
+.socials .logo {
+   margin-bottom: 20px;
+}
+.sociasl__img, .conacts__link{
+   opacity: 0.5;
+   transition: 0.7s;
+}
+
+.sociasl__img:hover, .conacts__link:hover{
+   color: #486958;
+   opacity: 1;
+   transform: scale(1.3);
+}
+
+
+.conacts__link:not(:last-of-type){
+margin-bottom: 50px;
+}
+
+.conacts__item:not(:last-of-type) {
+   margin-bottom: 20px;
+}
+.conacts__link{
+font-weight: 600;
+   font-size: 22px;
+   line-height: 19px;
+   display: inline-block;
+}
+
+
+
+
+
